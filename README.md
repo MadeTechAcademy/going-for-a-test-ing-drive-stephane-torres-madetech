@@ -7,9 +7,17 @@ To submit your answers, you must first create a branch of this repository, then 
 
 1. Describe the approach to TDD on your delivery. In general, how strict are people writing tests before code? (This is not a judgement, just an observation of what you are noticing). What makes it difficult to start with tests? What might make it easier?
 
+From the pieces of work I've shadowed and paired on, I've notices that we've rarely written tests before writing solutions
+
 2. What testing frameworks are in use? Is the same framework used for everything, or do you have a framework for testing code, and one for testing a website or service?
 
+Cypress, Jest => Front-end, cypress E2E and Pytest => backend. Don't know what we use to test Terraform, is there a way?
+
 3. Looking at the language(s) used, list at least 5 other testing frameworks. What do they have in common, and what's their unique proposition?
+
+TS - Mocha, Jasmine, Bun,
+    Bun - All in one JS runtime, with included test runner, can also do TS, claims to be super rapid and lightweight.
+Python - PyUnit or UnitTest, pyunit build into python already so no need for other packages, however meant to be more verbose than PyTest for example.
 
 4. Using a coverage tool, what is the test coverage on the project (If there's more than one project, choose one). What might that result suggest? In what area would you discuss adding more tests?
 
