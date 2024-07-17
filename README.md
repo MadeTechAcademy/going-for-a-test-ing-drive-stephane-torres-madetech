@@ -7,7 +7,7 @@ To submit your answers, you must first create a branch of this repository, then 
 
 1. Describe the approach to TDD on your delivery. In general, how strict are people writing tests before code? (This is not a judgement, just an observation of what you are noticing). What makes it difficult to start with tests? What might make it easier?
 
-From the pieces of work I've shadowed and paired on, I've notices that we've rarely written tests before writing solutions
+From the pieces of work I've shadowed and paired on, I've noticed that we've rarely written tests before writing solutions. I think part of what makes it hard to start with tests is all the mocking involved, setting up dummy Amazon services, and the other services that migth interact with what needs testing. 
 
 2. What testing frameworks are in use? Is the same framework used for everything, or do you have a framework for testing code, and one for testing a website or service?
 
