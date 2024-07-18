@@ -13,6 +13,7 @@ From the pieces of work I've shadowed and paired on, I've noticed that we've rar
 
 Cypress, Jest => Front-end, Cypress E2E, and Pytest => backend. Don't know what we use to test Terraform, is there a way?
 Cypress is pretty cool and used to test the website and different workflows, you're able to define a workflow touching different aspects and pages of the code, assert what is expected to be present on the page or what page you're meant to be on depending what response you get back from queries, clicks are made etc
+Using Cypress in the browser is an experience too! Able to test different browsers within Cypress as well as see the workflows defined unfold in front of in at speed whilst also being able to target elements to check values, classes and content etc.
 
 
 
@@ -21,7 +22,7 @@ Cypress is pretty cool and used to test the website and different workflows, you
 TS - Mocha, Jasmine, Bun, => All claim to be simpple, work with pretty much any framework or library.
 Bun - All in one JS runtime, with included test runner, can also do TS, claims to be super rapid and lightweight.
 Jasmine - Super simple, doesn't require a DOM...? doesn't depend on anything else, no external dependencies, can do both browser and NodeJS testing, "Behaviour driven".
-Mocha - Not sure what the unique propositon is here, doesn't come with it's own assertion or mocking library but easily integrates with others, used often with Chai.
+Mocha - Not sure what the unique propositon is here, doesn't come with it's own assertion or mocking library but easily integrates with others, used often with Chai for assertions.
 
 Python - PyUnit or UnitTest, Selenium
 pyunit - build into python already so no need for other packages, however meant to be more verbose than PyTest, using classes and methods to define test cases rather than simple function definitions.
