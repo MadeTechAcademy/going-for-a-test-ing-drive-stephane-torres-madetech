@@ -14,6 +14,7 @@ That being said Abid and I attempted to do some TDD on a ticket that we were pai
 2. What testing frameworks are in use? Is the same framework used for everything, or do you have a framework for testing code, and one for testing a website or service?
 
 Cypress, Jest => Front-end, Cypress E2E, and Pytest => backend. Don't know what we use to test Terraform, is there a way?
+
 Cypress is pretty cool and used to test the website and different workflows, you're able to define a workflow touching different aspects and pages of the code, assert what is expected to be present on the page or what page you're meant to be on depending what response you get back from queries, clicks are made etc
 Using Cypress in the browser is an experience too! Able to test different browsers within Cypress as well as see the workflows defined unfold in front of in at speed whilst also being able to target elements to check values, classes and content etc.
 
