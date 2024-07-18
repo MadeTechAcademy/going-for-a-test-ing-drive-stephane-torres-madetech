@@ -25,7 +25,7 @@ Mocha - Not sure what the unique propositon is here, doesn't come with it's own 
 
 Python - PyUnit or UnitTest, Selenium
 pyunit - build into python already so no need for other packages, however meant to be more verbose than PyTest, using classes and methods to define test cases rather than simple function definitions.
-Selenium - Useful for testing web based apps opens up a browser and tests elements
+Selenium - Useful for testing web based apps opens up a browser and tests elements and events, a little bit like how we're using Cypress and Jest.
 
 4. Using a coverage tool, what is the test coverage on the project (If there's more than one project, choose one). What might that result suggest? In what area would you discuss adding more tests?
 
@@ -41,10 +41,8 @@ Coverage for the project is around 85% for the frontend and 95% for the backend.
 Looking at the tests I feel like they generally describe what is happening very well, it has taken some time to understand them, especially when it comes to what's being mocked and why, still getting the hang of it. Fixtures, mocker and mocking still confuse me a bit.
 Naming of test, functions and variables, both within the tests and features, definitely aid in documenting what the code should be doing.
 
-In terms of driving development, testing and sandboxing features of features definitely flags bugs and drives the fixing of these only for features being worked, but is not the only drive for development of the feature being worked on.  
+In terms of driving development, testing and sandboxing features definitely flags bugs and drives the fixing of these only for features being worked, but is not the only drive for development of the feature being worked on.  
 
-
-<!-- Over that past few weeks, having been more involved in some of the development of certain features, I've definitely become more confident in undertanding what is happening in the tests, and being able to describe them. I do still find the idea of mocking and setting up what needs to be mocked and what doesn't quite confusing. This also depends on what is being tested/complexity of feature or problem. For example; features like testing React is navigating to the correct places/pages with the correct props/elements I feel is still beyond me, possibly because not taking the time to deep dive and play with Navigate() in React. Or to what extend to test a feature, Abid and I worked on a toggle button, to make simple assertions meant a lot of mocked/forced re-renders of a component in our tests adding a lot of bloat, whether this sort of testing is necessary to write or if sandboxing and QA testing is more appropriate.  -->
 
 
 
