@@ -24,9 +24,12 @@ Bun - All in one JS runtime, with included test runner, can also do TS, claims t
 Jasmine - Super simple, doesn't require a DOM...? doesn't depend on anything else, no external dependencies, can do both browser and NodeJS testing, "Behaviour driven".
 Mocha - Not sure what the unique propositon is here, doesn't come with it's own assertion or mocking library but easily integrates with others, used often with Chai for assertions.
 
+Cypress also has alternatives such as Puppeteer and Playwright. Playwright supports multiple languages for writing tests whereas Cypress is only written in JS. Playwright can test multiple browsers at a time, whereas Cypress can only do one.
+Cypress has been around quite a bit longer and as a result has larger community and is said to be easier to use.
+
 Python - PyUnit or UnitTest, Selenium
 pyunit - build into python already so no need for other packages, however meant to be more verbose than PyTest, using classes and methods to define test cases rather than simple function definitions.
-Selenium - Useful for testing web based apps opens up a browser and tests elements and events, a little bit like how we're using Cypress and Jest.
+Selenium - Useful for testing web based apps opens up a browser and tests elements and events, a little bit like how we're using Cypress and Jest, opens up browser to check what elements and content are being processed/displayed.
 
 4. Using a coverage tool, what is the test coverage on the project (If there's more than one project, choose one). What might that result suggest? In what area would you discuss adding more tests?
 
