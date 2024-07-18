@@ -12,12 +12,20 @@ From the pieces of work I've shadowed and paired on, I've noticed that we've rar
 2. What testing frameworks are in use? Is the same framework used for everything, or do you have a framework for testing code, and one for testing a website or service?
 
 Cypress, Jest => Front-end, Cypress E2E, and Pytest => backend. Don't know what we use to test Terraform, is there a way?
+Cypress is pretty cool and used to test the website and different workflows, you're able to define a workflow touching different aspects and pages of the code, assert what is expected to be present on the page or what page you're meant to be on depending what response you get back from queries, clicks are made etc
+
+
 
 3. Looking at the language(s) used, list at least 5 other testing frameworks. What do they have in common, and what's their unique proposition?
 
-TS - Mocha, Jasmine, Bun,
+TS - Mocha, Jasmine, Bun, => All claim to be simpple, work with pretty much any framework or library.
 Bun - All in one JS runtime, with included test runner, can also do TS, claims to be super rapid and lightweight.
-Python - PyUnit or UnitTest, pyunit build into python already so no need for other packages, however meant to be more verbose than PyTest for example.
+Jasmine - Super simple, doesn't require a DOM...? doesn't depend on anything else, no external dependencies, can do both browser and NodeJS testing, "Behaviour driven".
+Mocha - Not sure what the unique propositon is here, doesn't come with it's own assertion or mocking library but easily integrates with others, used often with Chai.
+
+Python - PyUnit or UnitTest, Selenium
+pyunit - build into python already so no need for other packages, however meant to be more verbose than PyTest, using classes and methods to define test cases rather than simple function definitions.
+Selenium - Useful for testing web based apps opens up a browser and tests elements
 
 4. Using a coverage tool, what is the test coverage on the project (If there's more than one project, choose one). What might that result suggest? In what area would you discuss adding more tests?
 
@@ -30,7 +38,8 @@ Coverage for the project is around 85% for the frontend and 95% for the backend.
     - drive development of the code (because of this test this feature *and only this feature* was made)
   
 
-Looking at the tests I feel like they generally describe what is happening very well, it has taken some time to understand them, especially when it comes to what's being mocked and why, still getting the hang of it. Naming of test, functions and variables, both within the tests and features, definitely aid in documenting what the code should be doing.
+Looking at the tests I feel like they generally describe what is happening very well, it has taken some time to understand them, especially when it comes to what's being mocked and why, still getting the hang of it. Fixtures, mocker and mocking still confuse me a bit.
+Naming of test, functions and variables, both within the tests and features, definitely aid in documenting what the code should be doing.
 
 In terms of driving development, testing and sandboxing features of features definitely flags bugs and drives the fixing of these only for features being worked, but is not the only drive for development of the feature being worked on.  
 
