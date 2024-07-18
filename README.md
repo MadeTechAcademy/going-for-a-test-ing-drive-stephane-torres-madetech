@@ -7,11 +7,11 @@ To submit your answers, you must first create a branch of this repository, then 
 
 1. Describe the approach to TDD on your delivery. In general, how strict are people writing tests before code? (This is not a judgement, just an observation of what you are noticing). What makes it difficult to start with tests? What might make it easier?
 
-From the pieces of work I've shadowed and paired on, I've notices that we've rarely written tests before writing solutions
+From the pieces of work I've shadowed and paired on, I've noticed that we've rarely written tests before writing solutions, but tests are definitely present and used to verify that the code is doing what it's expected to do. I think part of the difficulty of writing tests first could be the need to mock different AWS services and the different interactions between these and previously existing code and how everything will/is meant to work together.
 
 2. What testing frameworks are in use? Is the same framework used for everything, or do you have a framework for testing code, and one for testing a website or service?
 
-Cypress, Jest => Front-end, cypress E2E and Pytest => backend. Don't know what we use to test Terraform, is there a way?
+Cypress, Jest => Front-end, Cypress E2E, and Pytest => backend. Don't know what we use to test Terraform, is there a way?
 
 3. Looking at the language(s) used, list at least 5 other testing frameworks. What do they have in common, and what's their unique proposition?
 
