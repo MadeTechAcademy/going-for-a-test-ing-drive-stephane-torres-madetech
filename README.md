@@ -21,13 +21,17 @@ Python - PyUnit or UnitTest, pyunit build into python already so no need for oth
 
 4. Using a coverage tool, what is the test coverage on the project (If there's more than one project, choose one). What might that result suggest? In what area would you discuss adding more tests?
 
-Coverage for the project is around 85% for the end and 95% for the backend. Suggests it might be slightly more awkward to test the front-end, interestingly we also use SonarCloud, which also runs a coverage tool and reports whether tests are missing for conditional branches.
+Coverage for the project is around 85% for the frontend and 95% for the backend. Suggests it might be slightly more awkward to test the front-end code, interestingly we also use SonarCloud, which also runs a coverage tool and reports whether tests are missing for conditional branches.
 
 
 6. Looking at the tests written, how confident would you say they:
     - describe what is happening
     - correctly document what the code should be doing
     - drive development of the code (because of this test this feature *and only this feature* was made)
+  
+Over that past few weeks, having been more involved in some of the development of certain features, I've definitely become more confident in undertanding what is happening in the tests, and being able to describe then. I do still find the idea of mocking and setting up what needs to be mocked and what doesn't quite confusing.
+
+
 
 
 
